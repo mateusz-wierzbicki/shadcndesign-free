@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "footer-1",
+  "type": "registry:component",
+  "title": "Footer 1",
+  "description": "Site footer with navigation links and legal information",
+  "registryDependencies": [
+    "separator",
+    "https://shadcndesign-free.vercel.app/r/styles.json",
+    "https://shadcndesign-free.vercel.app/r/logo.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/footers/footer-1.tsx",
+      "content": "\"use client\";\n\nimport { Logo } from \"@/components/pro-blocks/logo\";\nimport Link from \"next/link\";\nimport { Separator } from \"@/components/ui/separator\";\n\nconst MAIN_NAV_LINKS = [\n  { href: \"#\", label: \"Home\" },\n  { href: \"#\", label: \"About\" },\n  { href: \"#\", label: \"Products\" },\n  { href: \"#\", label: \"Services\" },\n  { href: \"#\", label: \"Contact\" },\n];\n\nconst LEGAL_LINKS = [\n  { href: \"#\", label: \"Privacy Policy\" },\n  { href: \"#\", label: \"Terms of Service\" },\n  { href: \"#\", label: \"Cookies Settings\" },\n];\n\nexport function Footer1() {\n  return (\n    <footer\n      className=\"bg-background section-padding-y text-sm\"\n      role=\"contentinfo\"\n      aria-label=\"Site footer\"\n    >\n      <div className=\"container-padding-x container mx-auto flex flex-col gap-12 lg:gap-16\">\n        {/* Top Section */}\n        <div className=\"flex w-full flex-col items-center gap-12 text-center\">\n          {/* Logo Section */}\n          <Link href=\"/\" aria-label=\"Go to homepage\">\n            <Logo className=\"size-7\" />\n          </Link>\n\n          {/* Main Navigation */}\n          <nav\n            className=\"flex flex-col items-center gap-4 md:flex-row md:gap-8\"\n            aria-label=\"Footer navigation\"\n          >\n            {MAIN_NAV_LINKS.map((link) => (\n              <Link\n                key={link.label}\n                href={link.href}\n                className=\"text-muted-foreground hover:text-foreground transition-colors\"\n              >\n                {link.label}\n              </Link>\n            ))}\n          </nav>\n        </div>\n\n        {/* Section Divider */}\n        <Separator role=\"presentation\" />\n\n        {/* Bottom Section */}\n        <div className=\"flex w-full flex-col-reverse items-center gap-12 lg:flex-row lg:justify-between lg:gap-6\">\n          {/* Copyright Text */}\n          <p className=\"text-muted-foreground text-center lg:text-left\">\n            <span>Copyright © {new Date().getFullYear()}</span>{\" \"}\n            <Link href=\"/\" className=\"hover:underline\">\n              shadcndesign.com\n            </Link>\n            . All rights reserved.\n          </p>\n\n          {/* Legal Navigation */}\n          <nav\n            className=\"flex flex-col items-center gap-4 md:flex-row md:gap-8\"\n            aria-label=\"Legal links\"\n          >\n            {LEGAL_LINKS.map((link) => (\n              <Link\n                key={link.label}\n                href={link.href}\n                className=\"text-muted-foreground hover:text-foreground transition-colors\"\n              >\n                {link.label}\n              </Link>\n            ))}\n          </nav>\n        </div>\n      </div>\n    </footer>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/footers/footer-1.tsx"
+    }
+  ]
+}

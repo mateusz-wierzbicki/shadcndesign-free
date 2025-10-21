@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tagline",
+  "type": "registry:component",
+  "title": "Tagline",
+  "description": "Reusable tagline component with variants",
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/tagline.tsx",
+      "content": "import * as React from \"react\";\nimport { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\nimport { cn } from \"@/lib/utils\";\n\nconst taglineVariants = cva(\n  \"flex items-center justify-center text-sm font-medium w-fit gap-1 [&_svg]:size-3.5 [&_svg]:shrink-0\",\n  {\n    variants: {\n      variant: {\n        default: \"bg-background border shadow-xs px-2.5 rounded-md h-7\",\n        ghost: \"bg-transparent text-muted-foreground\",\n        white: \"text-white\",\n      },\n    },\n    defaultVariants: {\n      variant: \"ghost\",\n    },\n  },\n);\n\ninterface TaglineProps\n  extends React.HTMLAttributes<HTMLDivElement>,\n    VariantProps<typeof taglineVariants> {\n  asChild?: boolean;\n}\n\nfunction Tagline({\n  className,\n  variant,\n  asChild = false,\n  children,\n  ...props\n}: TaglineProps) {\n  const Comp = asChild ? Slot : \"div\";\n\n  return (\n    <Comp className={cn(taglineVariants({ variant, className }))} {...props}>\n      {children}\n    </Comp>\n  );\n}\n\nexport { Tagline, taglineVariants };\n\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/tagline.tsx"
+    }
+  ]
+}

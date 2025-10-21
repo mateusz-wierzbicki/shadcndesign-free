@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-section-1",
+  "type": "registry:component",
+  "title": "Logo Section 1",
+  "description": "Logo showcase section with placeholder logos",
+  "registryDependencies": [
+    "https://shadcndesign-free.vercel.app/r/styles.json",
+    "https://shadcndesign-free.vercel.app/r/tagline.json",
+    "https://shadcndesign-free.vercel.app/r/placeholder-logo.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/logo-sections/logo-section-1.tsx",
+      "content": "\"use client\";\n\nimport { PlaceholderLogo } from \"@/components/pro-blocks/placeholder-logo\"; /* Make sure to import your logos */\nimport { Tagline } from \"@/components/pro-blocks/landing-page/tagline\";\n\nexport function LogoSection1() {\n  return (\n    <section className=\"bg-background section-padding-y\">\n      <div className=\"container-padding-x container mx-auto\">\n        <div className=\"flex flex-col items-center gap-12 md:gap-16\">\n          <div className=\"section-title-gap-lg flex max-w-xl flex-col items-center text-center\">\n            <Tagline>Logo section</Tagline>\n            <h2 className=\"heading-lg text-foreground\">\n              Showcase that builds trust\n            </h2>\n            <p className=\"text-muted-foreground\">\n              Add logos of notable companies using your product. Include 4-6\n              recognizable brands in grayscale to maintain visual consistency.\n              Ensure logos are properly scaled and aligned with equal spacing.\n            </p>\n          </div>\n\n          <div className=\"flex flex-wrap justify-center gap-6 md:gap-8\">\n            {[...Array(10)].map((_, index) => (\n              <PlaceholderLogo key={index} className=\"text-foreground\" />\n            ))}\n          </div>\n        </div>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/logo-sections/logo-section-1.tsx"
+    }
+  ]
+}

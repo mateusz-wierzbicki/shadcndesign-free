@@ -1,0 +1,450 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "shadcndesign",
+  "homepage": "https://www.shadcndesign.com",
+  "author": "Matt Wierzbicki <hi@shadcndesign.com>",
+  "items": [
+    {
+      "name": "404-section-1",
+      "type": "registry:component",
+      "title": "404 Section 1",
+      "description": "404 error page section with modern design",
+      "registryDependencies": [
+        "button",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/404-sections/404-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/404-sections/404-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "banner-1",
+      "type": "registry:component",
+      "title": "Banner 1",
+      "description": "Promotional banner with close button and modern styling",
+      "registryDependencies": [
+        "button",
+        "https://shadcndesign-free.vercel.app/r/styles.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/banners/banner-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/banners/banner-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "bento-grid-1",
+      "type": "registry:component",
+      "title": "Bento Grid 1",
+      "description": "Feature-rich layout with dynamic grid showcasing product features",
+      "registryDependencies": [
+        "card",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/bento-grids/bento-grid-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/bento-grids/bento-grid-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "blog-section-1",
+      "type": "registry:component",
+      "title": "Blog Section 1",
+      "description": "Blog posts grid with featured articles and metadata",
+      "registryDependencies": [
+        "aspect-ratio",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/blog-sections/blog-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/blog-sections/blog-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "comparison-section-1",
+      "type": "registry:component",
+      "title": "Comparison Section 1",
+      "description": "Feature comparison table with mobile-responsive design",
+      "registryDependencies": [
+        "button",
+        "separator",
+        "table",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json",
+        "https://shadcndesign-free.vercel.app/r/logo.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/comparison-sections/comparison-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/comparison-sections/comparison-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "contact-section-1",
+      "type": "registry:component",
+      "title": "Contact Section 1",
+      "description": "Contact form with validation and privacy policy checkbox",
+      "registryDependencies": [
+        "button",
+        "input",
+        "textarea",
+        "checkbox",
+        "field",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/contact-sections/contact-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/contact-sections/contact-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cta-section-1",
+      "type": "registry:component",
+      "title": "CTA Section 1",
+      "description": "Call-to-action section with primary background and compelling copy",
+      "registryDependencies": [
+        "button",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/cta-sections/cta-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/cta-sections/cta-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "empty-lp-section-1",
+      "type": "registry:component",
+      "title": "Empty LP Section 1",
+      "description": "Placeholder section for custom content",
+      "registryDependencies": [
+        "https://shadcndesign-free.vercel.app/r/styles.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/empty-lp-sections/empty-lp-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/empty-lp-sections/empty-lp-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "faq-section-1",
+      "type": "registry:component",
+      "title": "FAQ Section 1",
+      "description": "Frequently asked questions with accordion interface and CTA card",
+      "registryDependencies": [
+        "accordion",
+        "button",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/faq-sections/faq-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/faq-sections/faq-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "feature-section-1",
+      "type": "registry:component",
+      "title": "Feature Section 1",
+      "description": "Feature showcase with image and dual-column layout",
+      "registryDependencies": [
+        "button",
+        "aspect-ratio",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/feature-sections/feature-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/feature-sections/feature-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "footer-1",
+      "type": "registry:component",
+      "title": "Footer 1",
+      "description": "Site footer with navigation links and legal information",
+      "registryDependencies": [
+        "separator",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/logo.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/footers/footer-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/footers/footer-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "gallery-section-1",
+      "type": "registry:component",
+      "title": "Gallery Section 1",
+      "description": "Image gallery section with aspect ratio control",
+      "registryDependencies": [
+        "aspect-ratio",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/gallery-sections/gallery-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/gallery-sections/gallery-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "header-section-1",
+      "type": "registry:component",
+      "title": "Header Section 1",
+      "description": "Page header with title and description",
+      "registryDependencies": [
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/header-sections/header-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/header-sections/header-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "hero-section-1",
+      "type": "registry:component",
+      "title": "Hero Section 1",
+      "description": "Hero section with dual-column layout and call-to-action buttons",
+      "registryDependencies": [
+        "button",
+        "aspect-ratio",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/hero-sections/hero-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/hero-sections/hero-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "logo-section-1",
+      "type": "registry:component",
+      "title": "Logo Section 1",
+      "description": "Logo showcase section with placeholder logos",
+      "registryDependencies": [
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/logo-sections/logo-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/logo-sections/logo-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "lp-navbar-1",
+      "type": "registry:component",
+      "title": "LP Navbar 1",
+      "description": "Landing page navigation with mobile menu and logo",
+      "registryDependencies": [
+        "button",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/logo.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/lp-navbars/lp-navbar-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/lp-navbars/lp-navbar-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "pattern-1",
+      "type": "registry:component",
+      "title": "Pattern 1",
+      "description": "Background pattern component for visual enhancement",
+      "registryDependencies": [
+        "https://shadcndesign-free.vercel.app/r/styles.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/patterns/pattern-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/patterns/pattern-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "pricing-section-1",
+      "type": "registry:component",
+      "title": "Pricing Section 1",
+      "description": "Pricing table with billing toggle and feature tooltips",
+      "registryDependencies": [
+        "card",
+        "button",
+        "badge",
+        "tabs",
+        "tooltip",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/pricing-sections/pricing-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/pricing-sections/pricing-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "rich-text-section-1",
+      "type": "registry:component",
+      "title": "Rich Text Section 1",
+      "description": "Article layout with author information and structured content",
+      "registryDependencies": [
+        "aspect-ratio",
+        "avatar",
+        "https://shadcndesign-free.vercel.app/r/styles.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/rich-text-sections/rich-text-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/rich-text-sections/rich-text-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "stats-section-1",
+      "type": "registry:component",
+      "title": "Stats Section 1",
+      "description": "Statistics showcase with dual-column layout and metrics",
+      "registryDependencies": [
+        "aspect-ratio",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/stats-sections/stats-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/stats-sections/stats-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "team-section-1",
+      "type": "registry:component",
+      "title": "Team Section 1",
+      "description": "Team member showcase with social links and descriptions",
+      "registryDependencies": [
+        "avatar",
+        "https://shadcndesign-free.vercel.app/r/styles.json",
+        "https://shadcndesign-free.vercel.app/r/tagline.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/team-sections/team-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/team-sections/team-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "testimonials-section-1",
+      "type": "registry:component",
+      "title": "Testimonials Section 1",
+      "description": "Customer testimonial with avatar and quote",
+      "registryDependencies": [
+        "avatar",
+        "https://shadcndesign-free.vercel.app/r/styles.json"
+      ],
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/testimonials-sections/testimonials-section-1.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/testimonials-sections/testimonials-section-1.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tagline",
+      "type": "registry:component",
+      "title": "Tagline",
+      "description": "Reusable tagline component with variants",
+      "files": [
+        {
+          "path": "components/pro-blocks/landing-page/tagline.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/landing-page/tagline.tsx"
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "type": "registry:component",
+      "title": "Logo",
+      "description": "Brand logo component with customizable size",
+      "files": [
+        {
+          "path": "components/pro-blocks/logo.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/logo.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo",
+      "type": "registry:component",
+      "title": "Placeholder Logo",
+      "description": "Placeholder logo component for brand showcases",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo.tsx"
+        }
+      ]
+    }
+  ]
+}

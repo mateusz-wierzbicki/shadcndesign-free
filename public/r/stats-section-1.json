@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-section-1",
+  "type": "registry:component",
+  "title": "Stats Section 1",
+  "description": "Statistics showcase with dual-column layout and metrics",
+  "registryDependencies": [
+    "aspect-ratio",
+    "https://shadcndesign-free.vercel.app/r/styles.json",
+    "https://shadcndesign-free.vercel.app/r/tagline.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/stats-sections/stats-section-1.tsx",
+      "content": "\"use client\";\n\nimport { AspectRatio } from \"@/components/ui/aspect-ratio\";\nimport Image from \"next/image\";\nimport { Tagline } from \"@/components/pro-blocks/landing-page/tagline\";\n\nexport function StatsSection1() {\n  return (\n    <section className=\"bg-background section-padding-y\">\n      <div className=\"container-padding-x container mx-auto flex flex-col items-center gap-12 lg:flex-row lg:gap-16\">\n        <div className=\"flex flex-1 flex-col gap-10 md:gap-12\">\n          <div className=\"section-title-gap-lg flex flex-col\">\n            <Tagline>Stats section</Tagline>\n            <h2 className=\"heading-lg text-foreground\">\n              Data-driven highlights that showcase impact\n            </h2>\n            <p className=\"text-muted-foreground\">\n              Add a concise value statement that explains how your metrics\n              demonstrate success and growth. Focus on transformation and\n              measurable outcomes while keeping it under 2 lines. Align with\n              your statistical data display.\n            </p>\n          </div>\n          <div className=\"grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-8\">\n            <div className=\"flex flex-col gap-3\">\n              <h3 className=\"text-foreground text-2xl font-bold md:text-3xl\">\n                42,263\n              </h3>\n              <p className=\"text-muted-foreground\">\n                Each stat should include a bold numerical figure followed by a\n                brief, compelling description.\n              </p>\n            </div>\n            <div className=\"flex flex-col gap-3\">\n              <h3 className=\"text-foreground text-2xl font-bold md:text-3xl\">\n                $23M\n              </h3>\n              <p className=\"text-muted-foreground\">\n                Each stat should include a bold numerical figure followed by a\n                brief, compelling description.\n              </p>\n            </div>\n          </div>\n        </div>\n\n        <div className=\"w-full flex-1 lg:max-w-lg\">\n          <AspectRatio ratio={1}>\n            <Image\n              src=\"https://ui.shadcn.com/placeholder.svg\"\n              alt=\"Hero image\"\n              fill\n              className=\"h-full w-full rounded-xl object-cover\"\n            />\n          </AspectRatio>\n        </div>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/stats-sections/stats-section-1.tsx"
+    }
+  ]
+}

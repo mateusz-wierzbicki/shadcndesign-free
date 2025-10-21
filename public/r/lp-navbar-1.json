@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "lp-navbar-1",
+  "type": "registry:component",
+  "title": "LP Navbar 1",
+  "description": "Landing page navigation with mobile menu and logo",
+  "registryDependencies": [
+    "button",
+    "https://shadcndesign-free.vercel.app/r/styles.json",
+    "https://shadcndesign-free.vercel.app/r/logo.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/lp-navbars/lp-navbar-1.tsx",
+      "content": "\"use client\";\n\nimport { Logo } from \"@/components/pro-blocks/logo\";\nimport { Button } from \"@/components/ui/button\";\nimport { Menu, X } from \"lucide-react\";\nimport { useState } from \"react\";\nimport Link from \"next/link\";\n\nconst MENU_ITEMS = [\n  { label: \"Products\", href: \"#\" },\n  { label: \"Use cases\", href: \"#\" },\n  { label: \"Docs\", href: \"#\" },\n  { label: \"Pricing\", href: \"#\" },\n  { label: \"FAQ\", href: \"#\" },\n] as const;\n\ninterface NavMenuItemsProps {\n  className?: string;\n}\n\nconst NavMenuItems = ({ className }: NavMenuItemsProps) => (\n  <div className={`flex flex-col gap-1 md:flex-row ${className ?? \"\"}`}>\n    {MENU_ITEMS.map(({ label, href }) => (\n      <Link key={label} href={href}>\n        <Button variant=\"ghost\" className=\"w-full md:w-auto\">\n          {label}\n        </Button>\n      </Link>\n    ))}\n  </div>\n);\n\nexport function LpNavbar1() {\n  const [isMenuOpen, setIsMenuOpen] = useState(false);\n\n  const toggleMenu = () => setIsMenuOpen((prev) => !prev);\n\n  return (\n    <nav className=\"bg-background sticky top-0 isolate z-50 py-3.5 md:py-4\">\n      <div className=\"relative container m-auto flex flex-col justify-between gap-4 px-6 md:flex-row md:items-center md:gap-6\">\n        <div className=\"flex items-center justify-between\">\n          <Link href=\"/\" aria-label=\"Go to homepage\">\n            <Logo className=\"size-7\" />\n          </Link>\n          <Button\n            variant=\"ghost\"\n            className=\"flex size-9 items-center justify-center md:hidden\"\n            onClick={toggleMenu}\n            aria-label={isMenuOpen ? \"Close menu\" : \"Open menu\"}\n          >\n            {isMenuOpen ? <X /> : <Menu />}\n          </Button>\n        </div>\n\n        {/* Desktop Navigation */}\n        <div className=\"hidden w-full flex-row justify-end gap-5 md:flex\">\n          <NavMenuItems />\n          <Link href=\"#\">\n            <Button>Get started</Button>\n          </Link>\n        </div>\n\n        {/* Mobile Navigation */}\n        {isMenuOpen && (\n          <div className=\"flex w-full flex-col justify-end gap-5 pb-2.5 md:hidden\">\n            <NavMenuItems />\n            <Link href=\"#\">\n              <Button className=\"w-full\">Get started</Button>\n            </Link>\n          </div>\n        )}\n      </div>\n    </nav>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/lp-navbars/lp-navbar-1.tsx"
+    }
+  ]
+}

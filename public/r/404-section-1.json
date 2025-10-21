@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "404-section-1",
+  "type": "registry:component",
+  "title": "404 Section 1",
+  "description": "404 error page section with modern design",
+  "registryDependencies": [
+    "button",
+    "https://shadcndesign-free.vercel.app/r/styles.json",
+    "https://shadcndesign-free.vercel.app/r/tagline.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/404-sections/404-section-1.tsx",
+      "content": "\"use client\";\n\nimport { Button } from \"@/components/ui/button\";\nimport { Tagline } from \"@/components/pro-blocks/landing-page/tagline\";\n\nexport function X404Section1() {\n  return (\n    <section\n      className=\"bg-background section-padding-y\"\n      aria-labelledby=\"error-title\"\n    >\n      <div className=\"container-padding-x relative z-10 container mx-auto flex flex-col items-center gap-12 lg:flex-row lg:gap-16\">\n        <div className=\"m-auto flex max-w-xl flex-1 flex-col items-center gap-6 text-center lg:gap-8\">\n          {/* Section Title */}\n          <div className=\"section-title-gap-xl flex flex-col items-center text-center\">\n            {/* Tagline */}\n            <Tagline>404 Section</Tagline>\n            {/* Main Heading */}\n            <h1 id=\"error-title\" className=\"heading-xl\">\n              Page not found\n            </h1>\n            {/* Description */}\n            <p className=\"text-muted-foreground text-base lg:text-lg\">\n              Sorry, we couldn't find the page you're looking for. Please check\n              the URL or navigate back home.\n            </p>\n          </div>\n          <Button>Go to homepage</Button>\n        </div>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/404-sections/404-section-1.tsx"
+    }
+  ]
+}

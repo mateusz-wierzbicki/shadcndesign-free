@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "banner-1",
+  "type": "registry:component",
+  "title": "Banner 1",
+  "description": "Promotional banner with close button and modern styling",
+  "registryDependencies": [
+    "button",
+    "https://shadcndesign-free.vercel.app/r/styles.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/banners/banner-1.tsx",
+      "content": "\"use client\";\n\nimport { X, ChevronsRight } from \"lucide-react\";\nimport { Button } from \"@/components/ui/button\";\nimport Link from \"next/link\";\n\nexport function Banner1() {\n  return (\n    <aside\n      role=\"banner\"\n      aria-label=\"Promotion announcement\"\n      className=\"relative flex items-center bg-neutral-950 py-3 pr-8 pl-6\"\n    >\n      <Link\n        href=\"#\"\n        className=\"flex w-full cursor-pointer items-start justify-start gap-2 md:items-center md:justify-center\"\n        aria-label=\"Learn more about shadcn/ui kit Pro blocks\"\n      >\n        <p className=\"text-left text-sm text-white hover:underline md:text-center\">\n          <span className=\"font-semibold\">New update</span> · Pro blocks are now\n          available in shadcn/ui kit for Figma!\n        </p>\n        <ChevronsRight className=\"hidden h-4 w-4 text-white md:block\" />\n      </Link>\n\n      <Button\n        onClick={() => {\n          /* Add close handler */\n        }}\n        className=\"absolute right-2 flex h-8 w-8 items-center justify-center rounded-md hover:bg-white/20\"\n        aria-label=\"Close announcement\"\n        variant=\"ghost\"\n        size=\"icon\"\n      >\n        <X className=\"text-white\" />\n        <span className=\"sr-only\">Close</span>\n      </Button>\n    </aside>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/banners/banner-1.tsx"
+    }
+  ]
+}

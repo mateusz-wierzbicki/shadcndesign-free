@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gallery-section-1",
+  "type": "registry:component",
+  "title": "Gallery Section 1",
+  "description": "Image gallery section with aspect ratio control",
+  "registryDependencies": [
+    "aspect-ratio",
+    "https://shadcndesign-free.vercel.app/r/styles.json",
+    "https://shadcndesign-free.vercel.app/r/tagline.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/gallery-sections/gallery-section-1.tsx",
+      "content": "\"use client\";\n\nimport { AspectRatio } from \"@/components/ui/aspect-ratio\";\nimport Image from \"next/image\";\nimport { Tagline } from \"@/components/pro-blocks/landing-page/tagline\";\n\nexport function GallerySection1() {\n  return (\n    <section className=\"bg-background section-padding-y\">\n      <div className=\"container-padding-x container mx-auto flex flex-col gap-10 md:gap-12\">\n        <div className=\"section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center\">\n          <Tagline>Gallery section</Tagline>\n          <h2 className=\"heading-lg text-foreground\">\n            Showcase your product with a gallery of images\n          </h2>\n          <p className=\"text-muted-foreground text-base\">\n            This section is a great way to showcase your product with a gallery\n            of images. You can use this section to showcase your product in a\n            more engaging way.\n          </p>\n        </div>\n        <AspectRatio ratio={16 / 9}>\n          <Image\n            src=\"https://ui.shadcn.com/placeholder.svg\"\n            alt=\"Hero image\"\n            fill\n            className=\"h-full w-full object-cover\"\n          />\n        </AspectRatio>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/gallery-sections/gallery-section-1.tsx"
+    }
+  ]
+}

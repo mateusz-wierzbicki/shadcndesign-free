@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "testimonials-section-1",
+  "type": "registry:component",
+  "title": "Testimonials Section 1",
+  "description": "Customer testimonial with avatar and quote",
+  "registryDependencies": [
+    "avatar",
+    "https://shadcndesign-free.vercel.app/r/styles.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/testimonials-sections/testimonials-section-1.tsx",
+      "content": "\"use client\";\n\nimport { Avatar, AvatarImage } from \"@/components/ui/avatar\";\n\nexport function TestimonialsSection1() {\n  return (\n    <section\n      className=\"bg-muted/40 container-padding-x section-padding-y flex flex-col items-center\"\n      aria-labelledby=\"testimonial-title\"\n    >\n      {/* Content Container */}\n      <div className=\"flex max-w-2xl flex-col items-center gap-8\">\n        {/* Testimonial Quote */}\n        <blockquote\n          id=\"testimonial-title\"\n          className=\"text-foreground text-center text-lg leading-7 font-medium md:text-xl\"\n        >\n          &quot;Shadcn UI Kit for Figma has completely transformed our design\n          process. It&apos;s incredibly intuitive and saves us so much time. The\n          components are beautifully crafted and customizable.&quot;\n        </blockquote>\n\n        {/* Author Information */}\n        <div className=\"flex flex-col items-center gap-4\">\n          {/* Author Avatar */}\n          <Avatar className=\"h-12 w-12 rounded-xl md:h-14 md:w-14\">\n            <AvatarImage\n              src=\"https://github.com/shadcn.png\"\n              alt=\"Lando Norris\"\n            />\n          </Avatar>\n\n          {/* Author Details */}\n          <div className=\"flex items-center gap-2\">\n            <span className=\"text-foreground text-base font-medium\">\n              Lando Norris\n            </span>\n            <span className=\"text-muted-foreground opacity-50\">•</span>\n            <span className=\"text-muted-foreground text-base\">\n              CEO at Acme Inc.\n            </span>\n          </div>\n        </div>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/testimonials-sections/testimonials-section-1.tsx"
+    }
+  ]
+}

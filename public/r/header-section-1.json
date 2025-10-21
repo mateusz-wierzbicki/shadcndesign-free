@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "header-section-1",
+  "type": "registry:component",
+  "title": "Header Section 1",
+  "description": "Page header with title and description",
+  "registryDependencies": [
+    "https://shadcndesign-free.vercel.app/r/styles.json",
+    "https://shadcndesign-free.vercel.app/r/tagline.json"
+  ],
+  "files": [
+    {
+      "path": "components/pro-blocks/landing-page/header-sections/header-section-1.tsx",
+      "content": "\"use client\";\n\nimport { Tagline } from \"@/components/pro-blocks/landing-page/tagline\";\n\nexport function HeaderSection1() {\n  return (\n    <section\n      className=\"bg-background section-padding-y\"\n      aria-labelledby=\"page-heading\"\n    >\n      <div className=\"container-padding-x container mx-auto\">\n        <div className=\"section-title-gap-xl mx-auto flex max-w-xl flex-1 flex-col items-center text-center\">\n          <div className=\"section-title-gap-xl flex flex-col items-center\">\n            <Tagline>Header section</Tagline>\n            <h1 id=\"page-heading\" className=\"heading-xl text-foreground\">\n              Short engaging headline\n            </h1>\n            <p\n              className=\"text-muted-foreground text-base lg:text-lg\"\n              aria-description=\"page description\"\n            >\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit interdum\n              hendrerit ex vitae sodales.\n            </p>\n          </div>\n        </div>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/landing-page/header-sections/header-section-1.tsx"
+    }
+  ]
+}

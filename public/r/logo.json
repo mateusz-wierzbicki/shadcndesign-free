@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo",
+  "type": "registry:component",
+  "title": "Logo",
+  "description": "Brand logo component with customizable size",
+  "files": [
+    {
+      "path": "components/pro-blocks/logo.tsx",
+      "content": "interface LogoProps {\n  width?: number;\n  height?: number;\n  className?: string;\n}\n\nexport const Logo: React.FC<LogoProps> = ({\n  width = 32,\n  height = 32,\n  className = \"\",\n}) => {\n  return (\n    <svg\n      width={width}\n      height={height}\n      viewBox=\"0 0 36 36\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      className={className}\n    >\n      <g clipPath=\"url(#clip0_3014_8110)\">\n        <g clipPath=\"url(#clip1_3014_8110)\">\n          <rect\n            x=\"4.5\"\n            y=\"4.5\"\n            width=\"27\"\n            height=\"27\"\n            fill=\"black\"\n            stroke=\"#4497F7\"\n            strokeWidth=\"2.25\"\n          />\n          <rect\n            x=\"1.125\"\n            y=\"1.125\"\n            width=\"6.75\"\n            height=\"6.75\"\n            fill=\"white\"\n            stroke=\"#4497F7\"\n            strokeWidth=\"2.25\"\n          />\n          <rect\n            x=\"28.125\"\n            y=\"1.125\"\n            width=\"6.75\"\n            height=\"6.75\"\n            fill=\"white\"\n            stroke=\"#4497F7\"\n            strokeWidth=\"2.25\"\n          />\n          <rect\n            x=\"1.125\"\n            y=\"28.125\"\n            width=\"6.75\"\n            height=\"6.75\"\n            fill=\"white\"\n            stroke=\"#4497F7\"\n            strokeWidth=\"2.25\"\n          />\n          <rect\n            x=\"28.125\"\n            y=\"28.125\"\n            width=\"6.75\"\n            height=\"6.75\"\n            fill=\"white\"\n            stroke=\"#4497F7\"\n            strokeWidth=\"2.25\"\n          />\n          <path\n            d=\"M10.6875 25.3125L25.3125 10.6875\"\n            stroke=\"white\"\n            strokeWidth=\"2.25\"\n          />\n          <path\n            d=\"M19.6875 25.3125L25.3125 19.6875\"\n            stroke=\"white\"\n            strokeWidth=\"2.25\"\n          />\n        </g>\n      </g>\n      <defs>\n        <clipPath id=\"clip0_3014_8110\">\n          <rect width=\"36\" height=\"36\" fill=\"white\" />\n        </clipPath>\n        <clipPath id=\"clip1_3014_8110\">\n          <rect width=\"36\" height=\"36\" fill=\"white\" />\n        </clipPath>\n      </defs>\n    </svg>\n  );\n};\n",
+      "type": "registry:component",
+      "target": "components/pro-blocks/logo.tsx"
+    }
+  ]
+}
