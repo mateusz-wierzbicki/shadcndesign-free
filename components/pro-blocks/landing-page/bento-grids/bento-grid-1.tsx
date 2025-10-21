@@ -24,10 +24,10 @@ export function BentoGrid1() {
           </h2>
           {/* Description */}
           <p className="text-muted-foreground">
-            Add a concise value statement that highlights your product's key
-            features and benefits in a visually dynamic grid. Focus on creating
-            balanced content blocks while keeping it under 2-3 lines. Align with
-            your grid layout structure.
+            Add a concise value statement that highlights your product&apos;s
+            key features and benefits in a visually dynamic grid. Focus on
+            creating balanced content blocks while keeping it under 2-3 lines.
+            Align with your grid layout structure.
           </p>
         </div>
 

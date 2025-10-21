@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# shadcn/ui Pro Blocks by shadcndesign.com
 
-## Getting Started
+A comprehensive collection of free, pre-built, production-ready landing page components for shadcn/ui. These components are designed to help you build beautiful, modern landing pages quickly and efficiently. Get the full collection via [our website](https://www.shadcndesign.com).
 
-First, run the development server:
+## 🚀 What is this project?
+
+This project contains **25+ professional landing page components** built with shadcn/ui, including:
+
+- **Hero sections** - Eye-catching headers with CTAs
+- **Feature sections** - Showcase your product features
+- **Pricing tables** - Complete pricing layouts with billing toggles
+- **Testimonials** - Social proof components
+- **FAQ sections** - Accordion-based Q&A layouts
+- **Contact forms** - Ready-to-use contact sections
+- **Blog sections** - Article and content layouts
+- **Team sections** - Team member showcases
+- **And much more!**
+
+All components are:
+
+- ✅ **Fully responsive** - Mobile-first design
+- ✅ **Accessible** - WCAG compliant
+- ✅ **Customizable** - Easy to modify and style
+- ✅ **Production-ready** - Used in real projects
+
+## 📦 Installation
+
+### Prerequisites
+
+Make sure you have a Next.js project with shadcn/ui already set up. If you haven't set up shadcn/ui yet, follow the [official installation guide](https://ui.shadcn.com/docs/installation).
+
+**Install any component:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx shadcn@latest add https://shadcndesign-free.vercel.app/r/banner-1.json
+npx shadcn@latest add https://shadcndesign-free.vercel.app/r/hero-section-1.json
+npx shadcn@latest add https://shadcndesign-free.vercel.app/r/pricing-section-1.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Available Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Navigation & Headers
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **lp-navbar-1** - Landing page navigation with mobile menu
+- **header-section-1** - Page header with title and description
+- **banner-1** - Promotional banner with close button
 
-## Learn More
+### Hero Sections
 
-To learn more about Next.js, take a look at the following resources:
+- **hero-section-1** - Dual-column hero with CTA buttons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Content Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **feature-section-1** - Feature showcase with image
+- **bento-grid-1** - Dynamic grid layout for features
+- **stats-section-1** - Statistics showcase
+- **gallery-section-1** - Image gallery section
 
-## Deploy on Vercel
+### Social Proof
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **testimonials-section-1** - Customer testimonial
+- **logo-section-1** - Logo showcase
+- **team-section-1** - Team member showcase
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Forms & Interaction
+
+- **contact-section-1** - Contact form with validation
+- **faq-section-1** - FAQ accordion with CTA
+- **cta-section-1** - Call-to-action section
+
+### Content & Blog
+
+- **blog-section-1** - Blog posts grid
+- **rich-text-section-1** - Article layout
+- **comparison-section-1** - Feature comparison table
+
+### Pricing & Business
+
+- **pricing-section-1** - Pricing table with billing toggle
+
+### Utility
+
+- **404-section-1** - 404 error page
+- **empty-lp-section-1** - Placeholder section
+- **pattern-1** - Background pattern component
+
+### Shared Components
+
+- **tagline** - Reusable tagline component
+- **logo** - Brand logo component
+- **placeholder-logo** - Placeholder logo component

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "theme-purple",
+  "type": "registry:theme",
+  "title": "Purple Theme by shadcndesign.com",
+  "meta": {
+    "tier": "free"
+  },
+  "cssVars": {
+    "theme": {
+      "radius-sm": "var(--radius-sm)",
+      "radius-md": "var(--radius-md)",
+      "radius-lg": "var(--radius-lg)",
+      "radius-xl": "var(--radius-xl)",
+      "font-sans": "var(--font-sans)",
+      "font-mono": "var(--font-mono)",
+      "shadow-2xs": "var(--shadow-2xs)",
+      "shadow-xs": "var(--shadow-xs)",
+      "shadow-sm": "var(--shadow-sm)",
+      "shadow-md": "var(--shadow-md)",
+      "shadow-lg": "var(--shadow-lg)",
+      "shadow-xl": "var(--shadow-xl)",
+      "shadow-2xl": "var(--shadow-2xl)"
+    },
+    "light": {
+      "primary": "oklch(0.468 0.272 279.601)",
+      "accent": "oklch(0.968 0.007 247.896)",
+      "border": "oklch(0.929 0.013 255.508)",
+      "background": "oklch(1 0 0)",
+      "card": "oklch(1 0 0)",
+      "card-foreground": "oklch(0.282 0.087 267.935)",
+      "foreground": "oklch(0.282 0.087 267.935)",
+      "input": "oklch(0.929 0.013 255.508)",
+      "muted": "oklch(0.984 0.003 247.858)",
+      "popover-foreground": "oklch(0.282 0.087 267.935)",
+      "primary-foreground": "oklch(1 0 0)",
+      "ring": "oklch(0.468 0.272 279.601 / 0.1)",
+      "secondary": "oklch(0.955 0.025 298.615)",
+      "secondary-foreground": "oklch(0.266 0.151 281.039)",
+      "muted-foreground": "oklch(0.516 0.054 272.586)",
+      "chart-1": "oklch(0.468 0.272 279.601)",
+      "sidebar-foreground": "oklch(1 0 0)",
+      "sidebar": "oklch(0.984 0.003 247.858)",
+      "sidebar-primary": "oklch(0.468 0.272 279.601)",
+      "sidebar-primary-foreground": "oklch(1 0 0)",
+      "sidebar-accent": "oklch(0.968 0.007 247.896)",
+      "sidebar-accent-foreground": "oklch(0.282 0.087 267.935)",
+      "sidebar-border": "oklch(0.929 0.013 255.508)",
+      "sidebar-ring": "oklch(0.929 0.013 255.508)",
+      "font-sans": "Rubik, sans-serif",
+      "shadow-2xs": "0 1px 0 0 oklch(0.554 0.041 257.417 / 0.05)",
+      "shadow-xs": "0 1px 2px 0 oklch(0.554 0.041 257.417 / 0.05)",
+      "shadow-2xl": "0 25px 50px -12px oklch(0.554 0.041 257.417 / 0.15)"
+    },
+    "dark": {}
+  }
+}

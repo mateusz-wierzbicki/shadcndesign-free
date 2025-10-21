@@ -14,12 +14,12 @@ export function FeatureSection1() {
           <div className="section-title-gap-lg flex flex-col items-start">
             <Tagline>Feature section</Tagline>
             <h2 className="heading-lg text-foreground">
-              Headline that shows solution's impact on user success
+              Headline that shows solution&apos;s impact on user success
             </h2>
             <p className="text-muted-foreground">
               Explain in one or two concise sentences how your solution
-              transforms users' challenges into positive outcomes. Focus on the
-              end benefits that matter most to your target audience. Keep it
+              transforms users&apos; challenges into positive outcomes. Focus on
+              the end benefits that matter most to your target audience. Keep it
               clear and compelling.
             </p>
           </div>

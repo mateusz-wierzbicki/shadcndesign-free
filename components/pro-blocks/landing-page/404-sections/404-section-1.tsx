@@ -21,8 +21,8 @@ export function X404Section1() {
             </h1>
             {/* Description */}
             <p className="text-muted-foreground text-base lg:text-lg">
-              Sorry, we couldn't find the page you're looking for. Please check
-              the URL or navigate back home.
+              Sorry, we couldn&apos;t find the page you&apos;re looking for.
+              Please check the URL or navigate back home.
             </p>
           </div>
           <Button>Go to homepage</Button>

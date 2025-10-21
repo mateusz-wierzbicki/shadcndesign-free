@@ -93,7 +93,7 @@ export function RichTextSection1() {
               className="border-b pb-2 text-3xl font-semibold"
               id="the-kings-plan"
             >
-              The King's Plan
+              The King&apos;s Plan
             </h2>
 
             <p className="leading-7">
@@ -103,8 +103,9 @@ export function RichTextSection1() {
 
             {/* Quote Block - King's Statement */}
             <blockquote className="border-l-2 pl-6 italic">
-              "After all," he said, "everyone enjoys a good joke, so it's only
-              fair that they should pay for the privilege."
+              &quot;After all,&quot; he said, &quot;everyone enjoys a good joke,
+              so it&apos;s only fair that they should pay for the
+              privilege.&quot;
             </blockquote>
 
             {/* Second Section - The Joke Tax */}
@@ -113,8 +114,8 @@ export function RichTextSection1() {
             </h3>
 
             <p className="leading-7">
-              The king's subjects were not amused. They grumbled and complained,
-              but the king was firm:
+              The king&apos;s subjects were not amused. They grumbled and
+              complained, but the king was firm:
             </p>
 
             {/* Tax Rates List */}
@@ -131,27 +132,31 @@ export function RichTextSection1() {
             <p className="leading-7">
               As a result, people stopped telling jokes, and the kingdom fell
               into a gloom. But there was one person who refused to let the
-              king's foolishness get him down: a court jester named Jokester.
+              king&apos;s foolishness get him down: a court jester named
+              Jokester.
             </p>
 
             {/* Third Section - Jokester's Revolt */}
-            <h3 className="mt-8 text-2xl font-semibold">Jokester's Revolt</h3>
+            <h3 className="mt-8 text-2xl font-semibold">
+              Jokester&apos;s Revolt
+            </h3>
 
             <p className="leading-7">
               Jokester began sneaking into the castle in the middle of the night
-              and leaving jokes all over the place: under the king's pillow, in
-              his soup, even in the royal toilet. The king was furious, but he
-              couldn't seem to stop Jokester.
+              and leaving jokes all over the place: under the king&apos;s
+              pillow, in his soup, even in the royal toilet. The king was
+              furious, but he couldn&apos;t seem to stop Jokester.
             </p>
 
             <p className="leading-7">
               And then, one day, the people of the kingdom discovered that the
-              jokes left by Jokester were so funny that they couldn't help but
-              laugh. And once they started laughing, they couldn't stop.
+              jokes left by Jokester were so funny that they couldn&apos;t help
+              but laugh. And once they started laughing, they couldn&apos;t
+              stop.
             </p>
 
             <h3 className="mt-8 text-2xl font-semibold">
-              The People's Rebellion
+              The People&apos;s Rebellion
             </h3>
 
             <p className="leading-7">

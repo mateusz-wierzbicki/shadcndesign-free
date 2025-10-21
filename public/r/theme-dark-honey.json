@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "theme-dark-honey",
+  "type": "registry:theme",
+  "title": "Dark Honey Theme by shadcndesign.com",
+  "meta": {
+    "tier": "free"
+  },
+  "cssVars": {
+    "theme": {
+      "radius-sm": "var(--radius-sm)",
+      "radius-md": "var(--radius-md)",
+      "radius-lg": "var(--radius-lg)",
+      "radius-xl": "var(--radius-xl)",
+      "font-sans": "var(--font-sans)",
+      "font-mono": "var(--font-mono)",
+      "shadow-2xs": "var(--shadow-2xs)",
+      "shadow-xs": "var(--shadow-xs)",
+      "shadow-sm": "var(--shadow-sm)",
+      "shadow-md": "var(--shadow-md)",
+      "shadow-lg": "var(--shadow-lg)",
+      "shadow-xl": "var(--shadow-xl)",
+      "shadow-2xl": "var(--shadow-2xl)"
+    },
+    "light": {
+      "primary": "oklch(0.905 0.161 99.372)",
+      "accent": "oklch(0.3622 0.006 56.043)",
+      "background": "oklch(0.216 0.006 56.043)",
+      "border": "oklch(0.374 0.009 67.558)",
+      "card": "oklch(0.216 0.006 56.043)",
+      "card-foreground": "oklch(0.985 0.001 106.424)",
+      "accent-foreground": "oklch(0.985 0.001 106.424)",
+      "foreground": "oklch(0.985 0.001 106.424)",
+      "input": "oklch(0.374 0.009 67.558)",
+      "muted": "oklch(0.147 0.004 49.25)",
+      "popover": "oklch(0.216 0.006 56.043)",
+      "popover-foreground": "oklch(0.985 0.001 106.424)",
+      "primary-foreground": "oklch(0.258 0.049 100.453)",
+      "ring": "oklch(0.905 0.161 99.372 / 0.15)",
+      "secondary": "oklch(0.352 0.036 94.679)",
+      "secondary-foreground": "oklch(0.905 0.161 99.372)",
+      "muted-foreground": "oklch(0.716 0.009 56.259)",
+      "chart-1": "oklch(0.905 0.161 99.372)",
+      "sidebar-foreground": "oklch(0.985 0.001 106.424)",
+      "sidebar": "oklch(0.147 0.004 49.25)",
+      "sidebar-primary": "oklch(0.905 0.161 99.372)",
+      "sidebar-primary-foreground": "oklch(0.258 0.049 100.453)",
+      "sidebar-accent": "oklch(0.216 0.006 56.043)",
+      "sidebar-accent-foreground": "oklch(0.985 0.001 106.424)",
+      "sidebar-border": "oklch(0.374 0.009 67.558)",
+      "sidebar-ring": "oklch(0.905 0.161 99.372 / 0.15)",
+      "font-sans": "Nunito Sans, sans-serif",
+      "radius-sm": "0.25rem",
+      "radius-md": "0.5rem",
+      "radius-lg": "0.875rem",
+      "radius-xl": "1rem"
+    },
+    "dark": {}
+  }
+}

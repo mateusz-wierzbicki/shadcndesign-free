@@ -21,7 +21,7 @@ export function HeroSection1() {
             <Tagline>Hero Section</Tagline>
             {/* Main Heading */}
             <h1 id="hero-heading" className="heading-xl">
-              Headline that solves user's main problem
+              Headline that solves user&apos;s main problem
             </h1>
             {/* Description */}
             <p className="text-muted-foreground text-base lg:text-lg">

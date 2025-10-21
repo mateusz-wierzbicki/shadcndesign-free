@@ -79,7 +79,7 @@ export function TeamSection1() {
               People-powered showcase that builds connection
             </h2>
             <p className="text-muted-foreground">
-              Add a concise value statement that highlights your team's
+              Add a concise value statement that highlights your team&apos;s
               expertise and culture while maintaining a professional tone. Focus
               on collective strengths and achievements while keeping it under 2
               lines.

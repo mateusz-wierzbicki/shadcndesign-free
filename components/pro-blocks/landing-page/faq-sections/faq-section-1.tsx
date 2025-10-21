@@ -27,8 +27,9 @@ export function FaqSection1() {
           </h1>
           {/* Section Description */}
           <p className="text-muted-foreground">
-            We've compiled the most important information to help you get the
-            most out of your experience. Can't find what you're looking for?{" "}
+            We&apos;ve compiled the most important information to help you get
+            the most out of your experience. Can&apos;t find what you&apos;re
+            looking for?{" "}
             <Link href="#" className="text-primary underline">
               Contact us.
             </Link>
@@ -64,11 +65,12 @@ export function FaqSection1() {
           {/* FAQ Item 3 */}
           <AccordionItem value="item-3">
             <AccordionTrigger className="text-left text-base font-medium">
-              I'm not familiar with shadcn/ui. Can I still use this kit?
+              I&apos;m not familiar with shadcn/ui. Can I still use this kit?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground text-sm">
-              Yes, you can still use this kit even if you're new to shadcn/ui.
-              The components are designed to be intuitive and easy to use.
+              Yes, you can still use this kit even if you&apos;re new to
+              shadcn/ui. The components are designed to be intuitive and easy to
+              use.
             </AccordionContent>
           </AccordionItem>
 

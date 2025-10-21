@@ -382,6 +382,7 @@
         "https://shadcndesign-free.vercel.app/r/styles.json",
         "https://shadcndesign-free.vercel.app/r/tagline.json"
       ],
+      "dependencies": ["@icons-pack/react-simple-icons"],
       "files": [
         {
           "path": "components/pro-blocks/landing-page/team-sections/team-section-1.tsx",

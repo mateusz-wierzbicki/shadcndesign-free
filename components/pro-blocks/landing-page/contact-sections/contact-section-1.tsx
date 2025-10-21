@@ -27,8 +27,8 @@ export function ContactSection1() {
             {/* Description */}
             <p className="text-muted-foreground">
               Write one or two welcoming sentences that encourage contact.
-              Include your response time commitment and highlight your team's
-              readiness to help.
+              Include your response time commitment and highlight your
+              team&apos;s readiness to help.
             </p>
           </div>
 
