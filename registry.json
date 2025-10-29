@@ -446,6 +446,18 @@
           "target": "components/pro-blocks/placeholder-logo.tsx"
         }
       ]
+    },
+    {
+      "name": "theme-dark-honey",
+      "type": "registry:style",
+      "title": "Theme: Dark Honey",
+      "description": "Dark theme with honey accents",
+      "files": [
+        {
+          "path": "public/r/theme-dark-honey.json",
+          "type": "registry:style"
+        }
+      ]
     }
   ]
 }
