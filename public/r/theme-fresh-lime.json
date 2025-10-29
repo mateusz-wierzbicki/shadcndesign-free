@@ -3,9 +3,6 @@
   "name": "theme-fresh-lime",
   "type": "registry:theme",
   "title": "Fresh Lime Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

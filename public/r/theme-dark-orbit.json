@@ -3,9 +3,6 @@
   "name": "theme-dark-orbit",
   "type": "registry:theme",
   "title": "Dark Orbit Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

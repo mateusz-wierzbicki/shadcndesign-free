@@ -3,9 +3,6 @@
   "name": "theme-soft-orange",
   "type": "registry:theme",
   "title": "Soft Orange Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

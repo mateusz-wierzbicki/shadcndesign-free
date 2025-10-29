@@ -3,9 +3,6 @@
   "name": "theme-dark-lime",
   "type": "registry:theme",
   "title": "Dark Lime Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

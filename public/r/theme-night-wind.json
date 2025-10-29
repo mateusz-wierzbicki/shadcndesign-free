@@ -3,9 +3,6 @@
   "name": "theme-night-wind",
   "type": "registry:theme",
   "title": "Night Wind Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

@@ -3,9 +3,6 @@
   "name": "theme-fast-red",
   "type": "registry:theme",
   "title": "Fast Red Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

@@ -3,9 +3,6 @@
   "name": "theme-purple",
   "type": "registry:theme",
   "title": "Purple Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

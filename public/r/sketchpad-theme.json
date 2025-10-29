@@ -1,11 +1,8 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "custom-theme",
+  "name": "sketchpad-theme",
   "type": "registry:theme",
   "title": "Sketchpad Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",

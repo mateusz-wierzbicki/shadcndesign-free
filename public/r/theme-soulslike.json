@@ -3,9 +3,6 @@
   "name": "theme-soulslike",
   "type": "registry:theme",
   "title": "Soulslike Theme by shadcndesign.com",
-  "meta": {
-    "tier": "free"
-  },
   "cssVars": {
     "theme": {
       "radius-sm": "var(--radius-sm)",
