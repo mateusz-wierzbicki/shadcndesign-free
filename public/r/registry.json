@@ -448,7 +448,7 @@
       ]
     },
     {
-      "name": "purple-theme",
+      "name": "theme-purple",
       "type": "registry:theme",
       "title": "Purple Theme by shadcndesign.com",
       "cssVars": {
@@ -487,6 +487,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -585,7 +586,7 @@
       }
     },
     {
-      "name": "honey-theme",
+      "name": "theme-honey",
       "type": "registry:theme",
       "title": "Honey Theme by shadcndesign.com",
       "cssVars": {
@@ -624,6 +625,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -723,7 +725,7 @@
       }
     },
     {
-      "name": "sketchpad-theme",
+      "name": "theme-sketchpad",
       "type": "registry:theme",
       "title": "Sketchpad Theme by shadcndesign.com",
       "cssVars": {
@@ -762,6 +764,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -865,7 +868,7 @@
       }
     },
     {
-      "name": "soft-orange-theme",
+      "name": "theme-soft-orange",
       "type": "registry:theme",
       "title": "Soft Orange Theme by shadcndesign.com",
       "cssVars": {
@@ -904,6 +907,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1003,7 +1007,7 @@
       }
     },
     {
-      "name": "fast-red-theme",
+      "name": "theme-fast-red",
       "type": "registry:theme",
       "title": "Fast Red Theme by shadcndesign.com",
       "cssVars": {
@@ -1042,6 +1046,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1144,7 +1149,7 @@
       }
     },
     {
-      "name": "night-wind-theme",
+      "name": "theme-night-wind",
       "type": "registry:theme",
       "title": "Night Wind Theme by shadcndesign.com",
       "cssVars": {
@@ -1183,6 +1188,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1285,7 +1291,7 @@
       }
     },
     {
-      "name": "citrus-theme",
+      "name": "theme-citrus",
       "type": "registry:theme",
       "title": "Citrus Theme by shadcndesign.com",
       "cssVars": {
@@ -1324,6 +1330,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1417,7 +1424,7 @@
       }
     },
     {
-      "name": "soulslike-theme",
+      "name": "theme-soulslike",
       "type": "registry:theme",
       "title": "Soulslike Theme by shadcndesign.com",
       "cssVars": {
@@ -1456,6 +1463,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1558,7 +1566,7 @@
       }
     },
     {
-      "name": "fresh-lime-theme",
+      "name": "theme-fresh-lime",
       "type": "registry:theme",
       "title": "Fresh Lime Theme by shadcndesign.com",
       "cssVars": {
@@ -1597,6 +1605,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1699,7 +1708,7 @@
       }
     },
     {
-      "name": "orbiter-theme",
+      "name": "theme-orbiter",
       "type": "registry:theme",
       "title": "Orbiter Theme by shadcndesign.com",
       "cssVars": {
@@ -1738,6 +1747,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1823,7 +1833,7 @@
       }
     },
     {
-      "name": "neon-forest-theme",
+      "name": "theme-neon-forest",
       "type": "registry:theme",
       "title": "Neon Forest Theme by shadcndesign.com",
       "cssVars": {
@@ -1862,6 +1872,7 @@
           "color-sidebar-ring": "var(--sidebar-ring)",
           "font-sans": "var(--font-sans)",
           "font-mono": "var(--font-mono)",
+          "font-serif": "var(--font-serif)",
           "radius-sm": "calc(var(--radius) - 4px)",
           "radius-md": "calc(var(--radius) - 2px)",
           "radius-lg": "var(--radius)",
@@ -1964,7 +1975,7 @@
       }
     },
     {
-      "name": "icecream-theme",
+      "name": "theme-icecream",
       "type": "registry:theme",
       "title": "Icecream Theme by shadcndesign.com",
       "cssVars": {
@@ -2050,7 +2061,7 @@
           "sidebar-border": "oklch(0.922 0 0)",
           "sidebar-ring": "oklch(0.951 0.121 125.737)",
           "font-sans": "Instrument Sans, sans-serif",
-          "font-serif": "Fraunces, serif",
+          "font-serif": "var(--font-fraunces)",
           "radius": "0rem"
         },
         "dark": {
