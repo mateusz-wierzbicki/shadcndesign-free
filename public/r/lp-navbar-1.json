@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "lp-navbar-1",
-  "type": "registry:component",
   "title": "LP Navbar 1",
   "description": "Landing page navigation with mobile menu and logo",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/lp-navbars/lp-navbar-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

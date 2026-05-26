@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "blog-section-1",
-  "type": "registry:component",
   "title": "Blog Section 1",
   "description": "Blog posts grid with featured articles and metadata",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/blog-sections/blog-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

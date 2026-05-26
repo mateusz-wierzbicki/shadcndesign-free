@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-soulslike",
-  "type": "registry:theme",
   "title": "Soulslike Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -139,5 +138,6 @@
       "shadow-xl": "0 0px 0px 4px hsl(223.8136 0.0004% 98.0256% / 0.01), 0 8px 10px 3px hsl(223.8136 0.0004% 98.0256% / 0.01)",
       "shadow-2xl": "0 0px 0px 4px hsl(223.8136 0.0004% 98.0256% / 0.03)"
     }
-  }
+  },
+  "type": "registry:theme"
 }

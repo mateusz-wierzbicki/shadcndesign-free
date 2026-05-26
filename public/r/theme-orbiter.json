@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-orbiter",
-  "type": "registry:theme",
   "title": "Orbiter Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -122,5 +121,6 @@
       "sidebar-border": "oklch(0.32 0 0)",
       "sidebar-ring": "oklch(0.72 0 0)"
     }
-  }
+  },
+  "type": "registry:theme"
 }

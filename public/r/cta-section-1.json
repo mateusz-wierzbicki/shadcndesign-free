@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "cta-section-1",
-  "type": "registry:component",
   "title": "CTA Section 1",
   "description": "Call-to-action section with primary background and compelling copy",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/cta-sections/cta-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

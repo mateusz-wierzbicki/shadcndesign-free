@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "404-section-1",
-  "type": "registry:component",
   "title": "404 Section 1",
   "description": "404 error page section with modern design",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/404-sections/404-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

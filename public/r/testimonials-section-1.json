@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "testimonials-section-1",
-  "type": "registry:component",
   "title": "Testimonials Section 1",
   "description": "Customer testimonial with avatar and quote",
   "registryDependencies": [
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/testimonials-sections/testimonials-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

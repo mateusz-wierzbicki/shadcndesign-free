@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "pricing-section-1",
-  "type": "registry:component",
   "title": "Pricing Section 1",
   "description": "Pricing table with billing toggle and feature tooltips",
   "registryDependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/pricing-sections/pricing-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

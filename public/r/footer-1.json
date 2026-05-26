@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "footer-1",
-  "type": "registry:component",
   "title": "Footer 1",
   "description": "Site footer with navigation links and legal information",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/footers/footer-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

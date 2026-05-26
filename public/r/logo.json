@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "logo",
-  "type": "registry:component",
   "title": "Logo",
   "description": "Brand logo component with customizable size",
   "files": [
@@ -11,5 +10,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/logo.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

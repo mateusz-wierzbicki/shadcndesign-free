@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "placeholder-logo",
-  "type": "registry:component",
   "title": "Placeholder Logo",
   "description": "Placeholder logo component for brand showcases",
   "files": [
@@ -11,5 +10,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/placeholder-logo.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

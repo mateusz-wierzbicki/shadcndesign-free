@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "comparison-section-1",
-  "type": "registry:component",
   "title": "Comparison Section 1",
   "description": "Feature comparison table with mobile-responsive design",
   "registryDependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/comparison-sections/comparison-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

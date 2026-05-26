@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-neon-forest",
-  "type": "registry:theme",
   "title": "Neon Forest Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -139,5 +138,6 @@
       "shadow-xl": "0 1px 3px 0px hsl(190.5457 54.9218% 5.7661% / 0.1), 0 8px 10px -1px hsl(190.5457 54.9218% 5.7661% / 0.1)",
       "shadow-2xl": "0 1px 3px 0px hsl(190.5457 54.9218% 5.7661% / 0.25)"
     }
-  }
+  },
+  "type": "registry:theme"
 }

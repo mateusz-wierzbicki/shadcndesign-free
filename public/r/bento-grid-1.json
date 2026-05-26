@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "bento-grid-1",
-  "type": "registry:component",
   "title": "Bento Grid 1",
   "description": "Feature-rich layout with dynamic grid showcasing product features",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/bento-grids/bento-grid-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

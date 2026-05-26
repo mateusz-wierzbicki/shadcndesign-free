@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "stats-section-1",
-  "type": "registry:component",
   "title": "Stats Section 1",
   "description": "Statistics showcase with dual-column layout and metrics",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/stats-sections/stats-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

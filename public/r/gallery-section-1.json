@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "gallery-section-1",
-  "type": "registry:component",
   "title": "Gallery Section 1",
   "description": "Image gallery section with aspect ratio control",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/gallery-sections/gallery-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

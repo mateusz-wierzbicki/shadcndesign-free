@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "hero-section-1",
-  "type": "registry:component",
   "title": "Hero Section 1",
   "description": "Hero section with dual-column layout and call-to-action buttons",
   "registryDependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/hero-sections/hero-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

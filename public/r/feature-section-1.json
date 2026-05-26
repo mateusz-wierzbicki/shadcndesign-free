@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "feature-section-1",
-  "type": "registry:component",
   "title": "Feature Section 1",
   "description": "Feature showcase with image and dual-column layout",
   "registryDependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/feature-sections/feature-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

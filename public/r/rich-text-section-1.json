@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "rich-text-section-1",
-  "type": "registry:component",
   "title": "Rich Text Section 1",
   "description": "Article layout with author information and structured content",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/rich-text-sections/rich-text-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

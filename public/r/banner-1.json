@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "banner-1",
-  "type": "registry:component",
   "title": "Banner 1",
   "description": "Promotional banner with close button and modern styling",
   "registryDependencies": [
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/banners/banner-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

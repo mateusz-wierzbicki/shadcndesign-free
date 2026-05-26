@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-fast-red",
-  "type": "registry:theme",
   "title": "Fast Red Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -139,5 +138,6 @@
       "shadow-xl": "0 1px 2px 0 hsl(0 0% 0% / 0.18), 0 8px 10px -1px hsl(0 0% 0% / 0.18)",
       "shadow-2xl": "0 1px 2px 0 hsl(0 0% 0% / 0.45)"
     }
-  }
+  },
+  "type": "registry:theme"
 }

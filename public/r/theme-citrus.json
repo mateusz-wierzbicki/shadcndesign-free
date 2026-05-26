@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-citrus",
-  "type": "registry:theme",
   "title": "Citrus Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -130,5 +129,6 @@
       "sidebar-border": "oklch(0.275 0 0)",
       "sidebar-ring": "oklch(0.439 0 0)"
     }
-  }
+  },
+  "type": "registry:theme"
 }

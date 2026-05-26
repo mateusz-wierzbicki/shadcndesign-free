@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "header-section-1",
-  "type": "registry:component",
   "title": "Header Section 1",
   "description": "Page header with title and description",
   "registryDependencies": [
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/header-sections/header-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

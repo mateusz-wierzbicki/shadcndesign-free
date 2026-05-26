@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "faq-section-1",
-  "type": "registry:component",
   "title": "FAQ Section 1",
   "description": "Frequently asked questions with accordion interface and CTA card",
   "registryDependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/faq-sections/faq-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

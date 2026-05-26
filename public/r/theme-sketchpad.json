@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-sketchpad",
-  "type": "registry:theme",
   "title": "Sketchpad Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -140,5 +139,6 @@
       "shadow-xl": "4px 4px 0px 0px oklch(0.427 0.149 277.089 / 0.5)",
       "shadow-2xl": "4px 4px 0px 0px oklch(0.427 0.149 277.089 / 0.5)"
     }
-  }
+  },
+  "type": "registry:theme"
 }

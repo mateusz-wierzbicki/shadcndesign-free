@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "contact-section-1",
-  "type": "registry:component",
   "title": "Contact Section 1",
   "description": "Contact form with validation and privacy policy checkbox",
   "registryDependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/contact-sections/contact-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

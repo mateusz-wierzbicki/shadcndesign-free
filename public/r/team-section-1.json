@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "team-section-1",
-  "type": "registry:component",
   "title": "Team Section 1",
   "description": "Team member showcase with social links and descriptions",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/team-sections/team-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

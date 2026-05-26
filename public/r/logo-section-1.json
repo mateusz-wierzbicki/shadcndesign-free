@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "logo-section-1",
-  "type": "registry:component",
   "title": "Logo Section 1",
   "description": "Logo showcase section with placeholder logos",
   "registryDependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/logo-sections/logo-section-1.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

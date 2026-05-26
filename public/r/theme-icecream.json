@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-icecream",
-  "type": "registry:theme",
   "title": "Icecream Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -123,5 +122,6 @@
       "sidebar-border": "oklch(0.315 0.023 12.737)",
       "sidebar-ring": "oklch(0.951 0.121 12.737)"
     }
-  }
+  },
+  "type": "registry:theme"
 }

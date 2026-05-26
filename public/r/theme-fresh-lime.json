@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "theme-fresh-lime",
-  "type": "registry:theme",
   "title": "Fresh Lime Theme by shadcndesign.com",
   "cssVars": {
     "theme": {
@@ -139,5 +138,6 @@
       "shadow-xl": "2.5px 2.5px 0px 0px oklch(0.3 0.04 127.581)",
       "shadow-2xl": "2.5px 2.5px 0px 0px oklch(0.3 0.04 127.581)"
     }
-  }
+  },
+  "type": "registry:theme"
 }
