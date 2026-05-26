@@ -270,7 +270,14 @@
       "registryDependencies": [
         "https://shadcndesign-free.vercel.app/r/styles.json",
         "https://shadcndesign-free.vercel.app/r/tagline.json",
-        "https://shadcndesign-free.vercel.app/r/placeholder-logo.json"
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-buzzsnap.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-dashstar.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-editly.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-geoaura.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-nanodea.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-orionbo.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-revahub.json",
+        "https://shadcndesign-free.vercel.app/r/placeholder-logo-starlight.json"
       ],
       "files": [
         {
@@ -435,15 +442,106 @@
       ]
     },
     {
-      "name": "placeholder-logo",
+      "name": "placeholder-logo-buzzsnap",
       "type": "registry:component",
-      "title": "Placeholder Logo",
-      "description": "Placeholder logo component for brand showcases",
+      "title": "Placeholder Logo Buzzsnap",
+      "description": "Placeholder logo component for logo section 1",
       "files": [
         {
-          "path": "components/pro-blocks/placeholder-logo.tsx",
+          "path": "components/pro-blocks/placeholder-logo-buzzsnap.tsx",
           "type": "registry:component",
-          "target": "components/pro-blocks/placeholder-logo.tsx"
+          "target": "components/pro-blocks/placeholder-logo-buzzsnap.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo-dashstar",
+      "type": "registry:component",
+      "title": "Placeholder Logo Dashstar",
+      "description": "Placeholder logo component for logo section 1",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo-dashstar.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo-dashstar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo-editly",
+      "type": "registry:component",
+      "title": "Placeholder Logo Editly",
+      "description": "Placeholder logo component for logo section 1",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo-editly.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo-editly.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo-geoaura",
+      "type": "registry:component",
+      "title": "Placeholder Logo Geoaura",
+      "description": "Placeholder logo component for logo section 1",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo-geoaura.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo-geoaura.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo-nanodea",
+      "type": "registry:component",
+      "title": "Placeholder Logo Nanodea",
+      "description": "Placeholder logo component for logo section 1",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo-nanodea.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo-nanodea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo-orionbo",
+      "type": "registry:component",
+      "title": "Placeholder Logo Orionbo",
+      "description": "Placeholder logo component for logo section 1",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo-orionbo.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo-orionbo.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo-revahub",
+      "type": "registry:component",
+      "title": "Placeholder Logo Revahub",
+      "description": "Placeholder logo component for logo section 1",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo-revahub.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo-revahub.tsx"
+        }
+      ]
+    },
+    {
+      "name": "placeholder-logo-starlight",
+      "type": "registry:component",
+      "title": "Placeholder Logo Starlight",
+      "description": "Placeholder logo component for logo section 1",
+      "files": [
+        {
+          "path": "components/pro-blocks/placeholder-logo-starlight.tsx",
+          "type": "registry:component",
+          "target": "components/pro-blocks/placeholder-logo-starlight.tsx"
         }
       ]
     },

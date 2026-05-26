@@ -71,18 +71,16 @@ export function TeamSection1() {
 
   return (
     <section className="bg-background section-padding-y">
-      <div className="container-padding-x container mx-auto">
+      <div className="container-padding-x mx-auto max-w-7xl">
         <div className="flex flex-col items-center gap-10 md:gap-12">
           <div className="section-title-gap-lg flex max-w-xl flex-col items-center text-center">
             <Tagline>Team section</Tagline>
             <h2 className="heading-lg text-foreground">
-              People-powered showcase that builds connection
+              Showcase that builds connection
             </h2>
-            <p className="text-muted-foreground">
-              Add a concise value statement that highlights your team&apos;s
-              expertise and culture while maintaining a professional tone. Focus
-              on collective strengths and achievements while keeping it under 2
-              lines.
+            <p className="text-muted-foreground text-lg/8 text-pretty">
+              Add a concise value statement that highlights your team's
+              expertise and culture while maintaining a professional tone.
             </p>
           </div>
 

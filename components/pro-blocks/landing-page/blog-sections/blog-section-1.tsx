@@ -59,34 +59,25 @@ export function BlogSection1() {
       className="bg-background section-padding-y"
       aria-labelledby="blog-section-heading"
     >
-      <div className="container-padding-x container mx-auto gap-10 md:gap-12">
+      <div className="container-padding-x mx-auto max-w-7xl gap-10 md:gap-12">
         <div className="flex flex-col items-center gap-10 md:gap-12">
-          {/* Section Title */}
           <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
-            {/* Tagline */}
             <Tagline>Blog Section</Tagline>
-            {/* Main Heading */}
             <h1 id="blog-section-heading" className="heading-lg">
-              Short and clear engaging headline for a blog
+              Learn what's new
             </h1>
-            {/* Description */}
-            <p className="text-muted-foreground">
-              Add a concise value statement that captures reader interest and
-              previews content value. Focus on benefits while keeping it under
-              two lines. Align with your blog categories.
+            <p className="text-muted-foreground text-lg/8 text-pretty">
+              Add a concise value statement that captures your reader's interest
+              and previews your content value.
             </p>
           </div>
-
-          {/* Blog Grid */}
           <div
-            className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-6 lg:grid-cols-4"
+            className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-4 lg:grid-cols-4"
             role="list"
           >
             {BLOG_POSTS.map((post) => (
               <Link href="#" key={post.id} className="group block">
-                {/* Blog Card */}
                 <div className="flex flex-col gap-4 rounded-xl transition-all duration-200">
-                  {/* Image Wrapper */}
                   <AspectRatio
                     ratio={4 / 3}
                     className="overflow-hidden rounded-xl"
@@ -98,10 +89,7 @@ export function BlogSection1() {
                       className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
                     />
                   </AspectRatio>
-
-                  {/* Post Content */}
                   <div className="flex flex-col gap-3">
-                    {/* Post Meta */}
                     <div className="flex items-center gap-2 text-left">
                       <span className="text-muted-foreground text-sm">
                         {post.date}
@@ -111,14 +99,10 @@ export function BlogSection1() {
                         {post.category}
                       </span>
                     </div>
-
-                    {/* Post Title */}
-                    <h3 className="text-base leading-normal font-semibold group-hover:underline">
+                    <h3 className="text-base font-semibold tracking-tight group-hover:underline">
                       {post.title}
                     </h3>
-
-                    {/* Post Summary */}
-                    <p className="text-muted-foreground text-sm leading-normal">
+                    <p className="text-muted-foreground text-sm">
                       {post.description}
                     </p>
                   </div>

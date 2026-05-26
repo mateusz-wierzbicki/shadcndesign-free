@@ -9,7 +9,7 @@
   "files": [
     {
       "path": "components/pro-blocks/landing-page/empty-lp-sections/empty-lp-section-1.tsx",
-      "content": "\"use client\";\n\nexport function EmptyLpSection1() {\n  return (\n    <section className=\"bg-background section-padding-y\">\n      <div className=\"container-padding-x container mx-auto\">\n        <div className=\"border-border bg-muted w-full flex-1 border border-dashed p-6 text-center\">\n          Replace this div with your content\n        </div>\n      </div>\n    </section>\n  );\n}\n",
+      "content": "\"use client\";\n\nexport function EmptyLpSection1() {\n  return (\n    <section className=\"bg-background section-padding-y\">\n      <div className=\"container-padding-x mx-auto max-w-7xl\">\n        <div className=\"border-border bg-muted w-full flex-1 border border-dashed p-6 text-center\">\n          Replace this div with your content\n        </div>\n      </div>\n    </section>\n  );\n}\n",
       "type": "registry:component",
       "target": "components/pro-blocks/landing-page/empty-lp-sections/empty-lp-section-1.tsx"
     }

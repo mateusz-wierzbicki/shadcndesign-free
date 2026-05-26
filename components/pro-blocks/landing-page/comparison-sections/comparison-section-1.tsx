@@ -33,11 +33,12 @@ export function ComparisonSection1() {
   return (
     <section className="bg-background section-padding-y">
       <div className="container-padding-x mx-auto flex max-w-6xl flex-col gap-8 md:gap-12">
-        {/* Title block */}
         <div className="section-title-gap-lg mx-auto flex flex-col items-center text-center md:max-w-xl">
           <Tagline>Comparison Section</Tagline>
-          <h2 className="heading-lg text-foreground">You vs. Them</h2>
-          <p className="text-muted-foreground text-base">
+          <h2 className="heading-lg text-foreground">
+            You vs. your competitor
+          </h2>
+          <p className="text-muted-foreground text-lg/8 text-pretty">
             Explain in one or two concise sentences how your solution compares
             to a competitor. Keep it clear and compelling.
           </p>

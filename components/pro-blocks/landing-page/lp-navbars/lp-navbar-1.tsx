@@ -37,7 +37,7 @@ export function LpNavbar1() {
 
   return (
     <nav className="bg-background sticky top-0 isolate z-50 py-3.5 md:py-4">
-      <div className="relative container m-auto flex flex-col justify-between gap-4 px-6 md:flex-row md:items-center md:gap-6">
+      <div className="relative mx-auto flex max-w-7xl flex-col justify-between gap-4 px-6 md:flex-row md:items-center md:gap-6">
         <div className="flex items-center justify-between">
           <Link href="/" aria-label="Go to homepage">
             <Logo className="size-7" />

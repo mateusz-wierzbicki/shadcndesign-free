@@ -17,28 +17,21 @@ export function FaqSection1() {
       aria-labelledby="faq-heading"
     >
       <div className="container-padding-x mx-auto flex max-w-2xl flex-col gap-10 md:gap-12">
-        {/* Section Header */}
         <div className="section-title-gap-lg flex flex-col items-center text-center">
-          {/* Category Tag */}
           <Tagline>FAQ section</Tagline>
-          {/* Main Title */}
           <h1 id="faq-heading" className="heading-lg text-foreground">
             Frequently asked questions
           </h1>
-          {/* Section Description */}
-          <p className="text-muted-foreground">
-            We&apos;ve compiled the most important information to help you get
-            the most out of your experience. Can&apos;t find what you&apos;re
-            looking for?{" "}
+          <p className="text-muted-foreground text-lg/8 text-pretty">
+            We've compiled the most important information to help you get the
+            most out of your experience. Can't find what you're looking for?{" "}
             <Link href="#" className="text-primary underline">
               Contact us.
             </Link>
           </p>
         </div>
 
-        {/* FAQ Accordion */}
         <Accordion type="single" defaultValue="item-1" aria-label="FAQ items">
-          {/* FAQ Item 1 */}
           <AccordionItem value="item-1">
             <AccordionTrigger className="text-left text-base font-medium">
               What is shadcn/ui?
@@ -51,7 +44,6 @@ export function FaqSection1() {
             </AccordionContent>
           </AccordionItem>
 
-          {/* FAQ Item 2 */}
           <AccordionItem value="item-2">
             <AccordionTrigger className="text-left text-base font-medium">
               What is shadcn/ui kit for Figma?
@@ -62,19 +54,16 @@ export function FaqSection1() {
             </AccordionContent>
           </AccordionItem>
 
-          {/* FAQ Item 3 */}
           <AccordionItem value="item-3">
             <AccordionTrigger className="text-left text-base font-medium">
-              I&apos;m not familiar with shadcn/ui. Can I still use this kit?
+              I'm not familiar with shadcn/ui. Can I still use this kit?
             </AccordionTrigger>
             <AccordionContent className="text-muted-foreground text-sm">
-              Yes, you can still use this kit even if you&apos;re new to
-              shadcn/ui. The components are designed to be intuitive and easy to
-              use.
+              Yes, you can still use this kit even if you're new to shadcn/ui.
+              The components are designed to be intuitive and easy to use.
             </AccordionContent>
           </AccordionItem>
 
-          {/* FAQ Item 4 */}
           <AccordionItem value="item-4">
             <AccordionTrigger className="text-left text-base font-medium">
               Can I create multi-brand design systems with this UI kit?
@@ -85,7 +74,6 @@ export function FaqSection1() {
             </AccordionContent>
           </AccordionItem>
 
-          {/* FAQ Item 5 */}
           <AccordionItem value="item-5">
             <AccordionTrigger className="text-left text-base font-medium">
               How will this kit save me time?
@@ -96,7 +84,6 @@ export function FaqSection1() {
             </AccordionContent>
           </AccordionItem>
 
-          {/* FAQ Item 6 */}
           <AccordionItem value="item-6">
             <AccordionTrigger className="text-left text-base font-medium">
               How does this improve my collaboration with developers?
@@ -108,13 +95,10 @@ export function FaqSection1() {
           </AccordionItem>
         </Accordion>
 
-        {/* CTA Card */}
         <div className="bg-muted/60 flex w-full flex-col items-center gap-6 rounded-xl p-6 md:p-8">
           <div className="flex flex-col gap-2 text-center">
-            <h2 className="text-foreground text-2xl font-bold">
-              Still have questions?
-            </h2>
-            <p className="text-muted-foreground text-base">
+            <h2 className="text-foreground heading-sm">Need more help?</h2>
+            <p className="text-muted-foreground text-base text-pretty">
               Have questions or need assistance? Our team is here to help!
             </p>
           </div>

@@ -10,15 +10,10 @@ export function RichTextSection1() {
       className="bg-background py-16 md:py-24"
       aria-labelledby="article-title"
     >
-      {/* Content Container - Centered with max width */}
       <div className="mx-auto max-w-3xl px-6">
-        {/* Article Container with Vertical Layout */}
         <article className="flex flex-col gap-12 md:gap-16">
-          {/* Article Header Section */}
           <div className="flex flex-col gap-8">
-            {/* Title and Meta Information Block */}
             <div className="flex flex-col gap-4 md:gap-5">
-              {/* Article Meta Information - Date and Category */}
               <div
                 className="flex items-center gap-2"
                 aria-label="Article metadata"
@@ -33,32 +28,27 @@ export function RichTextSection1() {
                 <p className="text-muted-foreground text-sm">Articles</p>
               </div>
 
-              {/* Article Main Title */}
               <h1 id="article-title" className="heading-xl">
                 Short and clear engaging headline for an article
               </h1>
 
-              {/* Article Description/Summary */}
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-lg/8 text-pretty">
                 Add a concise value statement that captures reader interest and
                 previews content value. Focus on benefits while keeping it under
                 two lines. Align with your blog categories.
               </p>
             </div>
 
-            {/* Author Information Block */}
             <div
               className="flex items-center gap-4"
               aria-label="Article author"
             >
-              {/* Author Avatar */}
               <Avatar className="h-10 w-10">
                 <AvatarImage
                   src="https://github.com/shadcn.png"
                   alt="Lando Norris"
                 />
               </Avatar>
-              {/* Author Details */}
               <div className="flex flex-col">
                 <p className="text-sm font-medium">Lando Norris</p>
                 <p className="text-muted-foreground text-sm">
@@ -67,7 +57,6 @@ export function RichTextSection1() {
               </div>
             </div>
 
-            {/* Featured Article Image Container */}
             <AspectRatio ratio={16 / 10}>
               <Image
                 src="https://ui.shadcn.com/placeholder.svg"
@@ -79,21 +68,18 @@ export function RichTextSection1() {
             </AspectRatio>
           </div>
 
-          {/* Article Content Section */}
           <div className="flex flex-col gap-6">
-            {/* Introduction Paragraph */}
             <p className="leading-7">
               Once upon a time, in a far-off land, there was a very lazy king
               who spent all day lounging on his throne. One day, his advisors
               came to him with a problem: the kingdom was running out of money.
             </p>
 
-            {/* First Section - The King's Plan */}
             <h2
               className="border-b pb-2 text-3xl font-semibold"
               id="the-kings-plan"
             >
-              The King&apos;s Plan
+              The King's Plan
             </h2>
 
             <p className="leading-7">
@@ -101,24 +87,20 @@ export function RichTextSection1() {
               brilliant plan: he would tax the jokes in the kingdom.
             </p>
 
-            {/* Quote Block - King's Statement */}
             <blockquote className="border-l-2 pl-6 italic">
-              &quot;After all,&quot; he said, &quot;everyone enjoys a good joke,
-              so it&apos;s only fair that they should pay for the
-              privilege.&quot;
+              "After all," he said, "everyone enjoys a good joke, so it's only
+              fair that they should pay for the privilege."
             </blockquote>
 
-            {/* Second Section - The Joke Tax */}
             <h3 className="mt-8 text-2xl font-semibold" id="the-joke-tax">
               The Joke Tax
             </h3>
 
             <p className="leading-7">
-              The king&apos;s subjects were not amused. They grumbled and
-              complained, but the king was firm:
+              The king's subjects were not amused. They grumbled and complained,
+              but the king was firm:
             </p>
 
-            {/* Tax Rates List */}
             <ul
               className="ml-6 list-disc space-y-2"
               aria-label="Joke tax rates"
@@ -128,35 +110,29 @@ export function RichTextSection1() {
               <li>3rd level of one-liners: 20 gold coins</li>
             </ul>
 
-            {/* Story Continuation */}
             <p className="leading-7">
               As a result, people stopped telling jokes, and the kingdom fell
               into a gloom. But there was one person who refused to let the
-              king&apos;s foolishness get him down: a court jester named
-              Jokester.
+              king's foolishness get him down: a court jester named Jokester.
             </p>
 
-            {/* Third Section - Jokester's Revolt */}
-            <h3 className="mt-8 text-2xl font-semibold">
-              Jokester&apos;s Revolt
-            </h3>
+            <h3 className="mt-8 text-2xl font-semibold">Jokester's Revolt</h3>
 
             <p className="leading-7">
               Jokester began sneaking into the castle in the middle of the night
-              and leaving jokes all over the place: under the king&apos;s
-              pillow, in his soup, even in the royal toilet. The king was
-              furious, but he couldn&apos;t seem to stop Jokester.
+              and leaving jokes all over the place: under the king's pillow, in
+              his soup, even in the royal toilet. The king was furious, but he
+              couldn't seem to stop Jokester.
             </p>
 
             <p className="leading-7">
               And then, one day, the people of the kingdom discovered that the
-              jokes left by Jokester were so funny that they couldn&apos;t help
-              but laugh. And once they started laughing, they couldn&apos;t
-              stop.
+              jokes left by Jokester were so funny that they couldn't help but
+              laugh. And once they started laughing, they couldn't stop.
             </p>
 
             <h3 className="mt-8 text-2xl font-semibold">
-              The People&apos;s Rebellion
+              The People's Rebellion
             </h3>
 
             <p className="leading-7">

@@ -25,7 +25,7 @@ export function Footer1() {
       role="contentinfo"
       aria-label="Site footer"
     >
-      <div className="container-padding-x container mx-auto flex flex-col gap-12 lg:gap-16">
+      <div className="container-padding-x mx-auto flex max-w-7xl flex-col gap-12 lg:gap-16">
         {/* Top Section */}
         <div className="flex w-full flex-col items-center gap-12 text-center">
           {/* Logo Section */}

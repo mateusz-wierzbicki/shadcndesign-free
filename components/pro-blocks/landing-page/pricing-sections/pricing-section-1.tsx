@@ -109,86 +109,73 @@ export function PricingSection1() {
   const [billingPeriod, setBillingPeriod] = React.useState("monthly");
 
   return (
-    // Main pricing section container
     <section
       className="bg-background section-padding-y"
       aria-labelledby="pricing-section-title"
     >
-      <div className="container-padding-x container mx-auto">
-        <div className="flex flex-col items-center gap-10 md:gap-12">
-          {/* Section Header */}
-          <div className="section-title-gap-lg flex max-w-xl flex-col items-center text-center">
-            {/* Category Tag */}
+      <div className="container-padding-x mx-auto max-w-7xl">
+        <div className="flex flex-col items-center gap-8">
+          <div className="section-title-gap-xl flex max-w-xl flex-col items-center text-center">
             <Tagline>Pricing section</Tagline>
-            {/* Main Title */}
-            <h2
+            <h1
               id="pricing-section-title"
-              className="heading-lg text-foreground"
+              className="heading-xl text-foreground"
             >
-              Benefit-focused headline that highlights choice
-            </h2>
-            {/* Section Description */}
-            <p className="text-muted-foreground text-base">
+              Choose your plan
+            </h1>
+            <p className="text-muted-foreground text-lg/8 text-pretty">
               Add a concise value statement that addresses price sensitivity and
-              showcases plan flexibility. Focus on transformation and results
-              while keeping it under 2 lines. Align with your pricing table
-              options.
+              showcases plan flexibility while keeping it under two lines.
             </p>
           </div>
 
-          {/* Billing Period Toggle */}
           <Tabs
             value={billingPeriod}
             onValueChange={setBillingPeriod}
             className="w-fit"
           >
-            <TabsList className="bg-muted h-10">
+            <TabsList className="bg-muted h-10 rounded-full">
               <TabsTrigger
                 value="monthly"
-                className="data-[state=active]:bg-background px-3 py-1.5 data-[state=active]:shadow-sm"
+                className="data-[state=active]:bg-background rounded-full px-3 py-1.5 data-[state=active]:shadow-sm"
               >
                 Monthly
               </TabsTrigger>
               <TabsTrigger
                 value="annually"
-                className="data-[state=active]:bg-background px-3 py-1.5 data-[state=active]:shadow-sm"
+                className="data-[state=active]:bg-background rounded-full px-3 py-1.5 data-[state=active]:shadow-sm"
               >
-                Annually
+                Annually <Badge variant="outline">Save 20%</Badge>
               </TabsTrigger>
             </TabsList>
           </Tabs>
 
-          {/* Pricing Cards Grid */}
-          <div className="grid w-full grid-cols-1 gap-4 lg:max-w-5xl lg:grid-cols-3 lg:gap-6">
+          <div className="grid w-full grid-cols-1 gap-4 lg:max-w-5xl lg:grid-cols-3">
             {pricingData.plans.map((plan, index) => (
               <Card
                 key={plan.name}
-                className={`rounded-xl p-6 lg:p-8 ${plan.highlighted ? "border-primary border-2" : ""}`}
+                className={`rounded-xl p-6 shadow-xs lg:p-8 ${plan.highlighted ? "border-primary border-2" : ""}`}
               >
                 <CardContent className="flex flex-col gap-8 p-0">
-                  {/* Plan Header */}
                   <div className="flex flex-col gap-6">
-                    {/* Plan Title and Description */}
                     <div className="relative flex flex-col gap-3">
-                      {/* Popular Plan Badge */}
                       {plan.badge && (
                         <Badge className="absolute top-1 right-0 w-fit">
                           {plan.badge}
                         </Badge>
                       )}
                       <h3
-                        className={`text-lg font-semibold ${plan.highlighted ? "text-primary" : ""}`}
+                        className={`font-semibold ${plan.highlighted ? "text-primary" : ""}`}
                       >
                         {plan.name}
                       </h3>
-                      <p className="text-muted-foreground text-sm">
+                      <p className="text-muted-foreground">
                         {plan.description}
                       </p>
                     </div>
 
-                    {/* Pricing Display */}
                     <div className="flex items-end gap-0.5">
-                      <span className="text-4xl font-semibold">
+                      <span className="text-5xl font-medium tracking-tight">
                         $
                         {
                           plan.pricing[
@@ -201,7 +188,6 @@ export function PricingSection1() {
                       </span>
                     </div>
 
-                    {/* CTA Button */}
                     <Button
                       variant={
                         plan.variant as VariantProps<
@@ -209,12 +195,12 @@ export function PricingSection1() {
                         >["variant"]
                       }
                       className="w-full"
+                      size="lg"
                     >
                       Purchase plan
                     </Button>
                   </div>
 
-                  {/* Features List */}
                   <div className="flex flex-col gap-4">
                     <p className="text-sm font-medium">
                       {index === 0
@@ -223,14 +209,11 @@ export function PricingSection1() {
                     </p>
                     <div className="flex flex-col gap-4">
                       {plan.features.map((feature, i) => (
-                        <div key={i} className="flex items-center gap-3">
-                          {/* Feature Checkmark */}
-                          <Check className="text-primary h-5 w-5" />
-                          {/* Feature Name */}
-                          <span className="text-muted-foreground flex-1 text-sm">
+                        <div key={i} className="flex items-center gap-2">
+                          <Check className="text-primary size-5" />
+                          <span className="text-muted-foreground flex-1 text-sm leading-5 font-medium">
                             {feature.name}
                           </span>
-                          {/* Feature Info Tooltip */}
                           <TooltipProvider>
                             <Tooltip>
                               <TooltipTrigger

@@ -16,23 +16,17 @@ export function ContactSection1() {
     >
       <div className="mx-auto max-w-xl px-6">
         <div className="flex flex-col items-center gap-10 md:gap-12">
-          {/* Section Title */}
           <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
-            {/* Tagline */}
             <Tagline>Contact Section</Tagline>
-            {/* Main Heading */}
             <h1 id="contact-heading" className="heading-lg">
               Get in touch
             </h1>
-            {/* Description */}
-            <p className="text-muted-foreground">
-              Write one or two welcoming sentences that encourage contact.
-              Include your response time commitment and highlight your
-              team&apos;s readiness to help.
+            <p className="text-muted-foreground text-lg/8 text-pretty">
+              Write one or two welcoming sentences that encourage contact and
+              include your response time commitment.
             </p>
           </div>
 
-          {/* Contact Form */}
           <form
             className="flex w-full flex-col"
             onSubmit={(e) => e.preventDefault()}
@@ -40,7 +34,6 @@ export function ContactSection1() {
           >
             <FieldSet>
               <FieldGroup>
-                {/* Name Input */}
                 <Field>
                   <FieldLabel htmlFor="name">Name</FieldLabel>
                   <Input
@@ -51,7 +44,6 @@ export function ContactSection1() {
                   />
                 </Field>
 
-                {/* Email Input */}
                 <Field>
                   <FieldLabel htmlFor="email">Email</FieldLabel>
                   <Input
@@ -63,7 +55,6 @@ export function ContactSection1() {
                   />
                 </Field>
 
-                {/* Message Textarea */}
                 <Field>
                   <FieldLabel htmlFor="message">Message</FieldLabel>
                   <Textarea
@@ -75,7 +66,6 @@ export function ContactSection1() {
                   />
                 </Field>
 
-                {/* Privacy Policy Checkbox */}
                 <Field orientation="horizontal">
                   <Checkbox id="privacy" required aria-required="true" />
                   <FieldLabel
@@ -90,7 +80,6 @@ export function ContactSection1() {
                   </FieldLabel>
                 </Field>
 
-                {/* Submit Button */}
                 <Field>
                   <Button type="submit" className="w-full">
                     Send message

@@ -11,31 +11,35 @@
       },
       ".heading-xl": {
         "font-family": "var(--font-sans)",
-        "font-size": "3rem",
+        "font-size": "3.75rem",
         "line-height": "1",
-        "font-weight": "700",
-        "letter-spacing": "-0.01em"
+        "font-weight": "500",
+        "letter-spacing": "-0.025em",
+        "text-wrap": "pretty"
       },
       ".heading-lg": {
         "font-family": "var(--font-sans)",
-        "font-size": "2.25rem",
-        "line-height": "1.111",
-        "font-weight": "700",
-        "letter-spacing": "-0.01em"
+        "font-size": "3rem",
+        "line-height": "1",
+        "font-weight": "500",
+        "letter-spacing": "-0.025em",
+        "text-wrap": "pretty"
       },
       ".heading-md": {
         "font-family": "var(--font-sans)",
-        "font-size": "1.875rem",
-        "line-height": "1.2",
-        "font-weight": "700",
-        "letter-spacing": "-0.01em"
+        "font-size": "2.25rem",
+        "line-height": "2.5rem",
+        "font-weight": "600",
+        "letter-spacing": "-0.025em",
+        "text-wrap": "pretty"
       },
       ".heading-sm": {
         "font-family": "var(--font-sans)",
         "font-size": "1.5rem",
-        "line-height": "1.333",
-        "font-weight": "700",
-        "letter-spacing": "-0.01em"
+        "line-height": "2rem",
+        "font-weight": "600",
+        "letter-spacing": "-0.025em",
+        "text-wrap": "pretty"
       },
       ".container-padding-x": {
         "padding-inline": "1.5rem"
@@ -56,31 +60,30 @@
         "gap": "1rem"
       }
     },
-    "@media (max-width: 64rem)": {
+    "@media (max-width: 40rem)": {
       ".heading-xl": {
-        "font-size": "1.875rem",
-        "line-height": "1.2"
+        "font-size": "3rem"
       },
       ".heading-lg": {
-        "font-size": "1.875rem",
-        "line-height": "1.2"
+        "font-size": "2.25rem",
+        "line-height": "2.5rem"
       },
       ".heading-md": {
-        "font-size": "1.5rem",
-        "line-height": "1.2"
+        "font-size": "1.875rem",
+        "line-height": "2.25rem"
       },
       ".heading-sm": {
-        "font-size": "1.5rem",
-        "line-height": "1.333"
+        "font-size": "1.25rem",
+        "line-height": "1.75rem"
       },
       ".container-padding-x": {
-        "padding-inline": "1.5rem"
+        "padding-inline": "1rem"
       },
       ".section-padding-y": {
         "padding-block": "4rem"
       },
       ".section-title-gap-xl": {
-        "gap": "1rem"
+        "gap": "1.25rem"
       },
       ".section-title-gap-lg": {
         "gap": "1rem"
