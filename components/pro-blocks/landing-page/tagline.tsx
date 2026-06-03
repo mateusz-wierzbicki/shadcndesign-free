@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Slot } from "radix-ui";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
@@ -23,23 +22,18 @@ const taglineVariants = cva(
 interface TaglineProps
   extends
     React.HTMLAttributes<HTMLDivElement>,
-    VariantProps<typeof taglineVariants> {
-  asChild?: boolean;
-}
+    VariantProps<typeof taglineVariants> {}
 
 function Tagline({
   className,
   variant,
-  asChild = false,
   children,
   ...props
 }: TaglineProps) {
-  const Comp = asChild ? Slot.Root : "div";
-
   return (
-    <Comp className={cn(taglineVariants({ variant, className }))} {...props}>
+    <div className={cn(taglineVariants({ variant, className }))} {...props}>
       {children}
-    </Comp>
+    </div>
   );
 }
 
